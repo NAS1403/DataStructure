@@ -9,7 +9,6 @@ public class InsertionSort {
         for (int i = 0; i < (array.length-1); i++) {
             String str = array[i+1];
 
-
             while (i>=0 && ((str.compareTo(array[i])) < 0)) {
                 array[i + 1] = array[i];
                 i--;
